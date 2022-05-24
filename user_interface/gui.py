@@ -785,6 +785,3 @@ class EnlargedImagePage(tk.Frame):
         while True:
             w, h = max(self.winfo_width(), 250), max(self.winfo_height(), 250)
             self.controller.set_img(self.img_index, widget=self.image_box, width=w, height=h)
-
-# Driver Code
-gui = RobotGUI()
